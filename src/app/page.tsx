@@ -1,3 +1,5 @@
+import { LinkAccountButton } from "@/components/link-account-button";
+
 export default async function Home() {
-  return <h1 className="text-rose-700">Hello World</h1>;
+  return <LinkAccountButton />;
 }
